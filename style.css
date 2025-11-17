@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Impact, Regular;
+    background-color: #424242;
+}
+
+canvas {
+    border: 10px solid rgb(0, 0, 0);
+    background-color: #A0E0F4;
+    width: 40%; /* Para que o canvas não ultrapasse a largura da tela */
+    height: 100%; /* Mantém a proporção */
+}
+
+h1 {
+    color: #FFFFFF; /* TÍTULO DO JOGO */
+}
+
+#nickname {
+    position: absolute;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+
+    /* Centralizando sobre o canvas */
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#rankingContainer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: linear-gradient(#AAE8FF, #29C6F5);
+    padding: 10px;
+    border: 5px solid #282828;
+    border-radius: 10px;
+    color: white;
+    -webkit-text-stroke: 0.5px black; /* Contorno de 1px */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra opcional para mais destaque */
+}
