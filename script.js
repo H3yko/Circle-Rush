@@ -65,19 +65,19 @@ function drawStartScreen() {
 
 //grama frases
 const phrases = [
-    "Acompanhe o Serenovense Ativo!",
-    "Canal Serenova é do povo!",
-    "Tá perdido? A gente tem o mapa da cidade pra você",
-    "Cheque sempre os classificados do canal",
-    "Ele sussurra...",
-    "Sai de perto da Rua Nuvem 7",
-    "Cadê o @conta_do_meu_vô?",
+    "Vai trabalhar, Thais!",
+    "Cinema mudo, o olhar diz tudo.",
+    "Calado vence.",
+    "Não importa a casquinha, o recheio tem que ser bom.",
+    "Vota com a legenda!",
+    "Quem comeu, comeu.",
+    "Eu não tenho microfone.",
     "Anuncie com a gente!",
     "Quem comanda a Seraphis?",
-    "Sempre volte pra checar o fórum, alguém pode ter te respondido...",
+    "Tem que fazer o desenho do dia das bruxas, ela já tá chegando mesmo.",
     "E aí, como tá o jogo?",
-    "Nunca mais ouvimos falar do Oráculo...",
-    "Oferecimento Canal Serenova",
+    "Tá seguindo a NEDqueta?",
+    "Oferecimento PUC Minas Presencial",
 ];
 
 function spawnFloatingText() {
